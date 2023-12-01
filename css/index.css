@@ -131,6 +131,9 @@ section{
     padding-bottom: 3em;
 
 }
+.target-inside{
+   margin-botom: 1em;
+}
 .tarjetas img{
     width: 300px;
     height: 225px;
