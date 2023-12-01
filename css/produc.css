@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,200&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+:root{
+    --blanco: white;
+    --negro: black;
+    --celeste: rgb(72, 181, 225);
+    --verde: yellowgreen;
+    --gris: rgb(36, 36, 36);
+
+
+}
+ 
+/*MENU*/
+
+.menu{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+    margin-bottom: 3em;
+    color: var(--blanco);
+    background-color: var(--negro);
+    
+}
+.menu img{
+    width: 4em;
+    height: 4em;
+    
+   
+}
+
+
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+   
+    
+}
+
+
+.menu li{
+    padding: 0 1em;
+}
+.menu li a{
+    text-decoration: none;
+    color: var(--blanco);
+    transition: all 0.4s ease;
+}
+.menu li a:hover{
+    transition: 0.4s;
+    background-color: var(--blanco);
+    padding: 0.5em;
+    border-radius: 1.5em;
+    color: yellowgreen;
+}
+
+/*menu*/
+
+.contenedorProductos{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.productoTag{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    
+
+}
+.producto{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 2em;
+    margin: 2em;
+    background-color: var(--gris) ;
+    color: var(--blanco);
+    
+}
+.producto img{
+    
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    width: 40%;
+    height: 20em;
+    object-fit: cover;
+}
+.textoPro{
+    display: block;
+    margin-left: 2em;
+}
+.textoPro a{
+    background-color: var(--blanco);
+    color: var(--negro);
+    border: none;
+    padding: 1em;
+    border-radius: 20px;
+  text-decoration: none;
+}
+.textoPro a:hover{
+    background-color: var(--celeste);
+    transition: .4s;
+}
+.textoPro button{
+    background-color: var(--blanco);
+    color: var(--negro);
+    border: none;
+    padding: 1em;
+    border-radius: 20px;
+
+}
+.textoPro button:hover{
+    background-color: var(--celeste);
+    transition: .4s;
+}
+H2{
+    text-align: center;
+    margin: 1em;
+}
+
+
+
+/*FOOTER*/
+.rating{
+    background-color: var(--negro);
+
+}
+
+footer{
+    background-color: var(--negro);
+
+}
+.footerCon img{
+    width: 4em;
+    height: 4em;
+    margin-right: 1em;
+   
+}
+.footerCon{
+
+  margin-top: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--blanco);
+  
+}
+.contenedorFoot1{
+    padding: 4em;
+
+}
+.contenedorFoot1 a{
+    color: white;
+    text-decoration: none;
+
+}
+.contenedorFoot1 a:hover{
+    color: var(--celeste);
+    transition: all 0.5s;
+}
+.contenedorFoot2{
+    padding: 3em;
+}
+
+
+.star{
+    font-size: 1.5em;
+    color: gray;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.star:hover,
+.star.checked{
+    color: orange;
+}
+
+
+
+@media (max-width: 600px){
+    .productoTag{
+        width: 100vh;
+        padding: 0;
+        margin: 0;
+    }
+    .producto{
+        width: 90%;
+    }
+
+    .menu{
+        height: 10em;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        padding: 1em;
+        margin-bottom: 3em;
+        color: var(--blanco);
+        background-color: var(--negro);
+        width: 100%;  
+    }
+ .menu ul {
+    flex-direction: row;
+   
+}
+.menu li a{
+    font-size: 1.5em;
+}
+.menu img{
+    width: 2em;
+    height: 2em;
+    margin: 1em;
+   
+}
+
+
+body{
+    flex-direction: column;
+    width: 100%;
+    min-width: 100vh;
+}
+
+.footerCon{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--blanco);
+    
+  }
+.contenedorFoot2{
+    padding: 1em;
+}
+.contenedorFoot1{
+    padding: 5px;
+    
+}
+
+}
+@media (max-width: 414px){
+    body{
+        min-height: 100vh;
+    }
+}
+
+/*FOOTER*/

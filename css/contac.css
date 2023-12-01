@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)) , url(/img/steampunk-gears-motion-animation-vintage-088700810_prevstill.webp) ;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+
+
+}
+.volverInicio a{
+    color: white;
+    margin: 2em;
+    text-decoration: none;
+}
+.volverInicio a:hover{
+    color: skyblue;
+    transition: all .4s;
+}
+.volverInicio{
+    font-family: 'Poppins', sans-serif;
+   margin-top: 1em;
+   
+}
+.tarjetaContac{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40em;
+    height: 30em;
+    background-color: white;
+    border-radius: 1em;
+    
+   
+}
+.tarjetaConteiner{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+.inputsCont{
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    width: 100%;
+    margin: 2em;
+    text-align: center;
+
+}
+.inputsCont input, textarea {
+    
+    margin: 2em;
+    width: 90%;
+    margin-top: 1em;
+    border: none;
+    outline: none;
+    border-bottom: solid black 1px;
+}
+
+.inputsCont button{
+    margin: 1em;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 30%;
+    height: 2em;
+    border-radius: 0.5em;
+    
+  
+}
+.inputsCont button:hover{
+    transition: .4s;
+    background-color: skyblue;
+    color: white;  
+    
+  
+}
+/*
+#pclass{
+    background-color: aqua;
+    color: black;
+    width: 90%;
+    height: 1em;
+    border-radius: 10%;
+}*/
+footer{
+    background-color: black;
+    height: 7em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.publiCont{
+    
+    color: white;
+}
+.publiCont a{
+    text-decoration: none;
+    color: white;
+    
+}
+.publiCont a:hover{
+    color: skyblue;
+
+}
+.icon{
+    padding-top: 2em;
+    margin-left: 3em;
+    justify-content: center;
+   
+}
+.iconCont{
+    display: flex;
+    margin-top: 1em;
+}

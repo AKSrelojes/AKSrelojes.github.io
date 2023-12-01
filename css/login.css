@@ -1,0 +1,160 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,200&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+:root{
+    --blanco: white;
+    --negro: black;
+    --celeste: rgb(72, 181, 225);
+
+
+}
+
+body{
+    min-height: 100vh;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(rgba(5,7,12,0.75),rgba(5,7,12,0.75)) , url(http://localhost/PAGINA%20CON%20PHPmicro/img/steampunk-gears-motion-animation-vintage-088700810_prevstill.webp) ;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    text-align: center;
+}
+.tarjetacompleta{
+    font-family: 'Poppins', sans-serif;
+    border-radius: 2em;
+    background-color: var(--negro);
+    color: var(--blanco);
+    width: 70%;
+    height: 30em;
+    padding: 3em;
+    
+    
+}
+.tarjetacompleta1{
+    border-radius: 2em;
+    background-color: var(--negro);
+    color: var(--blanco);
+    width: 70%;
+    height: 40em;
+    padding: 3em;
+    
+     
+}
+
+.contenedorTarjet{
+     min-height: 100vh;
+    display: flex;
+    margin-top: 10em;
+    justify-content: center;
+    
+}
+
+.tarjetacompleta a {
+    color: var(--blanco);
+    text-decoration: none;
+}
+.tarjetacompletaa:hover {
+    color: var(--celeste);
+    transition: 0.5s;
+   
+}
+.tarjetacompleta1 a {
+    color: var(--blanco);
+    text-decoration: none;
+}
+.tarjetacompleta1 a:hover {
+    color: var(--celeste);
+    transition: 0.5s;
+   
+}
+.contenedor-allbox{
+margin: 2em;
+
+}
+.contenedor-allbox h2{
+    padding-bottom: 0.5em;
+}
+.contenedor-allbox input{
+    border: none;
+    border-radius: 0.4em;
+    margin: 1em;
+    padding: 0.3em;
+    width: 70%;
+    height: 2em;
+    outline: none;
+
+}
+.contenedor-allbox button{
+    margin-top: 1em;
+    width: 50%;
+    height: 2em;
+    border: none;
+    border-radius: 1em;
+}
+.contenedor-allbox button:hover{
+  color: var(--negro);
+  background: var(--celeste) ;
+  transition: 0.4s;
+}
+
+.navbar{
+    display: flex;
+    justify-content: start;
+    align-items:start;
+    margin-bottom: 0.7em;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    color: var(--blanco);
+}
+
+@media (max-width:1000px){
+
+
+  nav{
+    min-width: 100vh;
+  }
+
+.tarjetacompleta{
+    border-radius: 2em;
+    background-color: var(--negro);
+    color: var(--blanco);
+    width: 90%;
+    height: 30em;
+    padding: 3em;
+}
+.tarjetacompleta1{
+    border-radius: 2em;
+    background-color: var(--negro);
+    color: var(--blanco);
+    width: 90%;
+    height: 35em;
+    padding: 3em;
+
+}
+.contenedor-allbox input{
+    border: none;
+    border-radius: 0.4em;
+    margin: 1em;
+    padding: 0.3em;
+    width: 90%;
+    height: 2em;
+    outline: none;
+}
+.contenedor-allbox button{
+    margin-top: 1em;
+    width: 90%;
+    height: 2em;
+    border: none;
+    border-radius: 1em;
+}
+
+}

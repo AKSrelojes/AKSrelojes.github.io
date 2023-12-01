@@ -1,0 +1,526 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,200&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    
+    
+}
+
+:root{
+    --blanco: white;
+    --negro: black;
+    --celeste: rgb(72, 181, 225);
+    --verde: yellowgreen;
+    --gris: rgb(36, 36, 36);
+    
+
+
+}
+ 
+/*MENU*/
+
+.menu{
+    background-image: url(/img/carrusel1.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1em;
+    color: var(--blanco);
+    background-color: var(--negro);
+    height: 35em;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    
+    
+}
+.menu img{
+    width: 4em;
+    height: 4em;
+    margin-right: 1em;
+   
+}
+
+
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+   
+    
+}
+
+
+.menu li{
+    padding: 0 1em;
+}
+.menu li a{
+    text-decoration: none;
+    color: var(--blanco);
+    transition: all 0.4s ease;
+}
+.menu li a:hover{
+    transition: 0.4s;
+    background-color: var(--blanco);
+    padding: 0.5em;
+    border-radius: 1.5em;
+    color: yellowgreen;
+}
+.menu li button{
+    
+    background: none;
+    color: var(--blanco);
+    border: none;
+
+}
+.menu li button:hover{
+    transition: 0.4s;
+    background-color: var(--blanco);
+    padding: 0.5em;
+    border-radius: 1.5em;
+    color: yellowgreen;
+}
+
+/*MENU*/
+
+
+
+
+ /*SECTION DE TARJETAS*/
+
+ .tituloTarj{
+    text-align: center;
+    margin-top: 2em;
+    font-family: 'Poppins', sans-serif;
+ }
+
+section{
+    background-color: var(--blanco);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    border-bottom: solid var(--negro) 1px;
+    padding: 4em 4em;
+    font-family: 'Poppins', sans-serif;
+}
+.tarjetas{
+    width: 400px;
+    margin: 1em;
+    margin-top: 2em;
+    background-color: var(--negro);
+    color: var(--blanco);
+    border-radius: 1em;
+    text-align: center;
+    
+    
+}
+.target-inside{
+    padding-top: 1em;
+    padding-bottom: 3em;
+
+}
+.tarjetas img{
+    width: 300px;
+    height: 225px;
+    object-fit: contain;
+    margin-top: 1.5em;
+    border-radius: 2em;
+}
+.tarjetas a{
+    border: none;
+    background-color: var(--blanco);
+    color: var(--negro);
+    border-radius: 0.5em;
+    margin-top: 1em;
+    padding: 0.5em;
+    text-decoration: none;
+}
+.tarjetas a:hover{
+    transition: 0.4s;
+    background-color: var(--verde);
+
+}
+.tarjetas:hover{
+    box-shadow: 20px 30px 50px rgba(0, 0, 0, 0.20);
+}
+/*sector de tarjetas*/
+
+
+
+
+
+
+
+
+
+ 
+
+/*SECTOR VIDEO AKS*/
+.publicidad{
+    width: 100%;
+    height: 30em; 
+    display: flex;
+    justify-content: center;
+    
+}
+.videoAKS video{
+    width: 100%;
+    height: 30em;
+    object-fit: contain;
+    
+}
+.videoSection{
+   padding-top: 2.5em;
+    
+
+}
+
+
+/*SECTOR VIDEO AKS*/
+
+  /*CAMPO ABOUT AK&S*/
+.conteinerAbout{
+    background-color: var(--blanco);
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.aboutask{
+background-color: var(--blanco);
+display: flex;
+flex-wrap: nowrap;
+align-items: center;
+padding: 3em;
+
+}
+.aboutask2{
+    background-color: var(--blanco);
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 3em;
+    
+    }
+
+
+.in-side-about{
+    display: block;
+    margin: 2em;
+
+}
+.in-side-about h3{
+    font-size: 50px;
+}
+.aboutask img{
+    width: 800px;
+    height: 300px;
+    margin: 3em;
+   object-fit: cover;
+    border-radius: 0.5em;
+    
+}
+.aboutask2 img{
+    width: 500px;
+    height: 300px;
+    border-radius: 0.5em;
+    
+}
+.in-side-about2{
+    display: block;
+    margin-left: 3em;
+}
+.in-side-about2 h3{
+    font-size: 50px;
+}
+
+ /*CAMPO ABOUT AK&S*/
+
+
+/*FOOTER*/
+.rating{
+    background-color: var(--negro);
+
+}
+
+footer{
+    
+    background-color: var(--negro);
+
+}
+.footerCon img{
+    width: 4em;
+    height: 4em;
+    margin-right: 1em;
+   
+}
+.footerCon{
+  margin-top: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--blanco);
+  
+}
+.contenedorFoot1{
+    padding: 4em;
+
+}
+.contenedorFoot1 a{
+    color: var(--blanco);
+    text-decoration: none;
+
+}
+.contenedorFoot1 a:hover{
+    transition: all 0.5s;
+    color: var(--celeste);
+}
+.contenedorFoot2{
+    padding: 3em;
+}
+
+
+.star{
+    font-size: 1.5em;
+    color: gray;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.star:hover,
+.star.checked{
+    color: orange;
+}
+
+/*FOOTER*/
+
+
+
+
+
+
+
+
+/*RESPONSIVE*/
+
+
+@media (max-width: 600px){
+
+    .menu{
+        
+        flex-wrap: nowrap;
+        flex-direction: row;
+        padding: 1em;
+        margin-bottom: 3em;
+        color: var(--blanco);
+        background-color: var(--negro);
+        width: 100%;  
+    }
+ .menu ul {
+    flex-direction: row;
+   
+}
+.menu img{
+    width: 2em;
+    height: 2em;
+    margin: 1em;
+   
+}
+
+
+body{
+    flex-direction: column;
+    width: 100%;
+}
+
+.footerCon{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--blanco);
+    
+  }
+.contenedorFoot2{
+    padding: 1em;
+}
+.contenedorFoot1{
+    padding: 5px;
+    
+}
+.tarjetas{
+    width: 50%;
+    flex-direction: column;
+   
+}
+
+
+
+ }
+ @media (max-width:1000px){
+    .menu{
+        width: 100vh;
+    }
+    .menu ul{
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    
+    }
+    .menu li{
+        
+        font-size: 20px;
+    }
+    .menu li a{
+        padding-bottom: 5em;
+    }
+    .menu{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/img/carrusel1.png);
+    }
+    .menu img{
+        width: 3em;
+        height: 3em;
+        margin: 1em;
+       
+    }
+    
+
+
+    .aboutask{
+        flex-direction: column;
+        width: auto;
+    }
+     .aboutask2{
+        flex-direction: column-reverse;
+        width: auto;
+     }
+     .in-side-about{
+        width: 80vh;
+        margin: 0;
+        padding: 1em;
+        flex-direction: row;
+        
+    }
+
+     .in-side-about2{
+        width: 80vh;
+        margin: 0;
+        padding: 1em;
+        flex-direction: row;
+        
+     }
+     .aboutask img{
+        object-fit: cover;
+        width: 80vh;
+        height: 300px;
+        border-radius: 0.5em;
+        
+    }
+    .aboutask2 img{
+        object-fit: cover;
+        width: 80vh;
+        height: 300px;
+        border-radius: 0.5em;
+        
+    }
+    .tarjetas{
+        width: 70%;
+        flex-direction: column;
+        
+    
+    }
+    
+ }
+ 
+ @media (max-width: 575px) {
+    .menu{
+        width: 100vh;
+    }
+    .menu ul{
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    
+    }
+    .menu li{
+        
+        font-size: 20px;
+    }
+    .menu li a{
+        padding-bottom: 5em;
+    }
+    .menu{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/img/carrusel1.png);
+    }
+
+    .tarjetas{
+        width: 70%;
+        
+    
+    }
+
+
+   body{
+    width: 100%;
+   }
+   
+ .aboutask{
+        background-color: var(--blanco);
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 2em;
+        
+        }
+        .aboutask2{
+            background-color: var(--blanco);
+            display: grid;
+           grid-template-columns: repeat(1, 1fr);
+            padding: 2em;
+            
+        }
+       
+    
+ }
+ @media (max-width: 450px){
+    .menu{
+        width: 100vh;
+    }
+    .menu ul{
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    
+    }
+    .menu li{
+        
+        font-size: 20px;
+    }
+    .menu li a{
+        padding-bottom: 5em;
+    }
+    .menu{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(/img/carrusel1.png);
+    }
+    #modo2{
+        width: 100vh;
+    }
+    .footerCon{
+        width: 100vh;
+        height: 10em;
+    }
+    .conteinerAbout{
+        width: 100vh;
+    }
+ }
+ /*RESPONSIVE*/
